@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@gitlab.weibo.cn:2222/daruk/daruk-exit-hook.git"
+    "url": "git@github.com:daruk-framework/daruk-exit-hook.git"
   },
   "keywords": [
     "process",
