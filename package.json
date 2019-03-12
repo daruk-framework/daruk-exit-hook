@@ -1,0 +1,24 @@
+{
+  "name": "@sina/daruk-exit-hook",
+  "version": "0.1.1",
+  "description": "Run some code when the process exits",
+  "main": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.weibo.cn:2222/daruk/daruk-exit-hook.git"
+  },
+  "keywords": [
+    "process",
+    "exit",
+    "hook",
+    "graceful",
+    "async"
+  ],
+  "author": "jingyu16",
+  "license": "ISC",
+  "dependencies": {}
+}
