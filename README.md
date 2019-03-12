@@ -19,7 +19,7 @@ module.exports = {
 
 ### 使用
 ```javascript
-const ExitHook = require('@sina/daruk-exit-hook')
+const ExitHook = require('daruk-exit-hook')
 
 const exitHook = new ExitHook({
   // 就算异步任务没有执行完毕，也必须退出进程的延时

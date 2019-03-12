@@ -1,5 +1,5 @@
 {
-  "name": "@sina/daruk-exit-hook",
+  "name": "daruk-exit-hook",
   "version": "0.1.1",
   "description": "Run some code when the process exits",
   "main": "./src/index.js",
