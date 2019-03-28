@@ -7,8 +7,9 @@ interface ExitHookOptions {
 declare class ExitHook  {
   constructor (options?: ExitHookOptions)
   options: ExitHookOptions
-  unhookEvent(event: 'string'): void
   addHook (cb:Function): void
+  unhookEvent (event: string): void
+  unhookAllEvent (): void
 }
 
 export = ExitHook

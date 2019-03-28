@@ -1,6 +1,6 @@
 {
   "name": "daruk-exit-hook",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Run some code when the process exits",
   "main": "./src/index.js",
   "types": "./types/index.d.ts",

@@ -19,6 +19,8 @@ exitHook.addHook(() => {
   console.log('exiting2')
 })
 
+// exitHook.unhookAllEvent()
+
 setTimeout(() => {
   throw new Error('uncaughtException exit')
 }, 1000)
