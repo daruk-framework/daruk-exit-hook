@@ -62,3 +62,8 @@ exitHook.addHook(() => {
 最好不要使用`process.exit()`手动退出进程  
 
 使用`process.exit()`手动退出进程时，退出的回调函数不支持执行异步任务；并且如果退出的回调函数报错，有进程退出失败的风险
+
+
+## TODO
+
+- 建议研究一下 TS 自动生成 commonjs 的 declaration，现在需要手动的在lib目录中添加 `export = ExitHook`
