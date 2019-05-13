@@ -1,22 +1,25 @@
-const ExitHook = require('../src/index')
+const ExitHook = require('../lib/index');
 
 const exitHook = new ExitHook({
   onExit (err, cb) {
+    console.log(err);
     if (err) {
       console.log(err.message)
     }
-    console.log('exiting')
+    console.log(' onExit exiting')
     setTimeout(() => {
       cb()
     }, 1000)
   },
-  onExitDone () {
-    console.log('exited')
+  onExitDone (code) {
+    console.log(`onExitDone exited ${code}`)
   }
-})
+});
+
+// console.log(exitHook)
 
 exitHook.addHook(() => {
-  console.log('exiting2')
+  console.log('addHook exiting2')
 })
 
 // exitHook.unhookAllEvent()
