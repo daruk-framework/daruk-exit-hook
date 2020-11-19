@@ -1,6 +1,6 @@
 {
   "name": "daruk-exit-hook",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Run some code when the process exits",
   "main": "./lib/index.js",
   "scripts": {
@@ -21,9 +21,9 @@
   "author": "jingyu16",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^12.0.0"
   },
   "devDependencies": {
+    "@types/node": "^12.0.0",
     "typescript": "^3.4.5"
   }
 }
